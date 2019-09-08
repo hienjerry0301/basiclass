@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author PV
  */
-public class doichovitritrongmang {
+public class doichovitritrongmang2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,9 +29,9 @@ public class doichovitritrongmang {
                     int temp = a[k];
                     a[k] = a[i];
                     a[i] = temp;
-                }
-                System.out.println(k + " and " + i);
 
+                    System.out.println(k + " and " + i);
+                }
             }
 
         }
